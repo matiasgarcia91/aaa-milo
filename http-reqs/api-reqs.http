@@ -1,0 +1,19 @@
+
+#  /articles
+GET https://my-json-server.typicode.com/Codaisseur/articles-comments-data/articles
+
+###
+#  /articles/:articleId
+GET https://my-json-server.typicode.com/Codaisseur/articles-comments-data/articles/1
+
+###
+#  /articles/:articleId/comments
+GET https://my-json-server.typicode.com/Codaisseur/articles-comments-data/articles/15/comments
+
+###
+#  /categories/:categorId/articles
+GET https://my-json-server.typicode.com/Codaisseur/articles-comments-data/categories/devops/articles
+
+###
+# A JSON with all the data:
+GET https://my-json-server.typicode.com/Codaisseur/articles-comments-data/db
